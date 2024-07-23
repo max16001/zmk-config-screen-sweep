@@ -34,3 +34,4 @@ Step 1 connect the screen to the controller, using pro micro pinout to identify 
 If you don't have the dongle yet, you can copy left center to make sweep run without dongle.
 
 - [akaihiep123/zmk-dongle-screen-sweep](https://github.com/akaihiep123/zmk-dongle-screen-sweep)
+- [Post](https://www.reddit.com/r/ErgoMechKeyboards/comments/1d14brd/a_little_dongle_for_sweep/?rdt=60382&onetap_auto=true&one_tap=true) 
