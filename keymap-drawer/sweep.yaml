@@ -35,7 +35,7 @@ layers:
   - {t: ESC, h: '2'}
   - $$mdi:backspace-outline$$
   '1':
-  - F1
+  - {t: _, h: F1}
   - F2
   - F3
   - F4
@@ -45,86 +45,86 @@ layers:
   - F8
   - '&F9_F10'
   - '&F11_F12'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: '$$mdi:chevron-down$$', type: trans}
   - {type: held}
-  - ''
-  - ''
+  - {t: ESCAPE, h: '3'}
+  - {t: '$$mdi:chevron-down$$', type: trans}
   '2':
+  - KP DIVIDE
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP MINUS
+  - VOLUME UP
+  - ''
+  - $$mdi:monitor-screenshot$$
+  - Page Up
+  - KP NUM
+  - KP MULTIPLY
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP PLUS
+  - $$mdi:volume-mute$$
+  - LEFT ARROW
+  - UP ARROW
+  - RIGHT ARROW
+  - ''
+  - KP 0
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP DOT
+  - VOLUME DOWN
+  - ''
+  - DOWN ARROW
+  - PAGE DOWN
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ENTER, h: '3'}
   - {type: held}
   - ''
   '3':
+  - $$mdi:backup-restore$$
+  - $$mdi:progress-download$$
   - ''
   - ''
   - ''
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - $$mdi:progress-download$$
+  - $$mdi:backup-restore$$
+  - {t: '$$mdi:bluetooth$$', s: '$$mdi:close-thick$$', type: text_with_symbol}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '0'}
+  - {t: '$$mdi:bluetooth$$', s: '$$mdi:close-thick$$', type: text_with_symbol}
   - ''
   - ''
   - ''
@@ -148,7 +148,7 @@ combos:
   k: $$mdi:keyboard-tab$$
 - p: [14, 24]
   k: \
-- p: [5, 15]
+- p: [5, 25]
   k: $$mdi:backspace-reverse-outline$$
 - p: [15, 25]
   k: '-'
@@ -156,3 +156,11 @@ combos:
   k: '['
 - p: [19, 29]
   k: ''''
+- p: [5, 15]
+  k: '&comma'
+- p: [6, 16]
+  k: '&dot'
+- p: [7, 17]
+  k: '&colon'
+- p: [8, 18]
+  k: '&semicolon'
