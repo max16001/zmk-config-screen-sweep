@@ -35,7 +35,7 @@ layers:
   - {t: ESC, h: '2'}
   - $$mdi:backspace-outline$$
   '1':
-  - {t: _, h: F1}
+  - {t: F1, h: _}
   - F2
   - F3
   - F4
