@@ -1,10 +1,10 @@
 layers:
   '0':
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$', type: toggle}
-  - $$mdi:bluetooth$$
-  - $$mdi:usb$$
-  - {t: '$$mdi:bluetooth$$', s: '$$mdi:close-thick$$', type: text_with_symbol}
-  - {t: BT, h: '0'}
+  - Q
+  - W
+  - E
+  - R
+  - T
   - Y
   - U
   - I
@@ -14,7 +14,7 @@ layers:
   - {t: S, h: LEFT GUI}
   - {t: D, h: ALT}
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: BT, h: '1'}
+  - G
   - H
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
   - {t: K, h: RALT}
@@ -24,7 +24,7 @@ layers:
   - {t: X, h: '$$mdi:content-cut$$'}
   - {t: C, h: '$$mdi:content-copy$$'}
   - {t: V, h: '$$mdi:content-paste$$'}
-  - {t: BT, h: '2'}
+  - B
   - N
   - M
   - ','
