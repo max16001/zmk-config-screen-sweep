@@ -107,12 +107,12 @@ layers:
   '3':
   - $$mdi:backup-restore$$
   - $$mdi:progress-download$$
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - $$mdi:bluetooth$$
+  - $$mdi:usb$$
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$', type: toggle}
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$', type: toggle}
+  - $$mdi:usb$$
+  - $$mdi:bluetooth$$
   - $$mdi:progress-download$$
   - $$mdi:backup-restore$$
   - {t: '$$mdi:bluetooth$$', s: '$$mdi:close-thick$$', type: text_with_symbol}
