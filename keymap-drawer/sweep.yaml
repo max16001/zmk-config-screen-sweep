@@ -1,8 +1,8 @@
 layers:
   '0':
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$', type: toggle}
-  - W
-  - E
+  - $$mdi:bluetooth$$
+  - $$mdi:usb$$
   - R
   - T
   - Y
