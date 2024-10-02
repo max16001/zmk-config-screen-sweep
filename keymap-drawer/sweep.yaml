@@ -1,5 +1,5 @@
 layers:
-  '0':
+  Base:
   - Q
   - W
   - E
@@ -20,7 +20,7 @@ layers:
   - {t: K, h: RALT}
   - {t: L, h: RIGHT GUI}
   - ;
-  - {t: Z, h: Ctl+ Z}
+  - {t: Z, h: Ctl+Z}
   - {t: X, h: '$$mdi:content-cut$$'}
   - {t: C, h: '$$mdi:content-copy$$'}
   - {t: V, h: '$$mdi:content-paste$$'}
@@ -31,10 +31,10 @@ layers:
   - .
   - /
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: ENTER, h: '1'}
-  - {t: ESC, h: '2'}
+  - {t: ENTER, h: Symbol}
+  - {t: ESC, h: Num}
   - $$mdi:backspace-outline$$
-  '1':
+  Symbol:
   - {t: F1, h: _}
   - F2
   - F3
@@ -67,9 +67,9 @@ layers:
   - '0'
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {type: held}
-  - {t: ESCAPE, h: '3'}
+  - {t: ESCAPE, h: BlTooth}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  '2':
+  Num:
   - KP DIVIDE
   - KP 7
   - KP 8
@@ -101,10 +101,10 @@ layers:
   - PAGE DOWN
   - ''
   - ''
-  - {t: ENTER, h: '3'}
+  - {t: ENTER, h: BlTooth}
   - {type: held}
   - ''
-  '3':
+  BlTooth:
   - $$mdi:backup-restore$$
   - $$mdi:progress-download$$
   - $$mdi:bluetooth$$
