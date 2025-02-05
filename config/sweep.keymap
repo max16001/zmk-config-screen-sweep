@@ -78,14 +78,19 @@
             compatible = "zmk,behavior-tap-dance";
             label = "F11_F12";
             #binding-cells = <0>;
-            bindings = <&kp F11>, <&kp F12>;
+            bindings = <&kp F11>, <&kp F12>;;
+
+            tapping-term-ms = <200>;
+ 
         };
 
         F9_F10: F9_F10 {
             compatible = "zmk,behavior-tap-dance";
             label = "F9_F10";
             #binding-cells = <0>;
-            bindings = <&kp F9>, <&kp F10>;
+            bindings = <&kp F9>, <&kp F10>;;
+
+            tapping-term-ms = <200>;
         };
 
         Sticky_shift: Sticky_shift {
