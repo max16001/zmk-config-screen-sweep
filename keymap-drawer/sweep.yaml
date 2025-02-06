@@ -140,11 +140,11 @@ layers:
   - {type: held}
   - ''
   Mouse:
-  - {type: held}
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -200,4 +200,4 @@ combos:
 - p: [8, 18]
   k: '&semicolon'
 - p: [4, 0]
-  k: {t: Mouse, h: '$$mdi:circle-small$$'}
+  k: {t: Mouse, h: '$$mdi:toggle-switch$$'}
