@@ -142,6 +142,7 @@ layers:
   Mouse:
   - ''
   - ''
+  - '&mmv MOVE_UP'
   - ''
   - ''
   - ''
@@ -150,10 +151,9 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
   - ''
   - ''
   - {t: '$$mdi:cursor-default-click-outline$$', s: '4', type: text_with_symbol}
