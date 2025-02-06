@@ -107,20 +107,20 @@ layers:
   BlTooth:
   - $$mdi:backup-restore$$
   - $$mdi:progress-download$$
-  - $$mdi:bluetooth$$
-  - $$mdi:usb$$
+  - ''
+  - ''
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$', type: toggle}
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$', type: toggle}
-  - $$mdi:usb$$
-  - $$mdi:bluetooth$$
+  - ''
+  - ''
   - $$mdi:progress-download$$
   - $$mdi:backup-restore$$
   - {t: '$$mdi:bluetooth$$', s: '$$mdi:close-thick$$', type: text_with_symbol}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '3'}
+  - ''
+  - ''
   - {t: BT, h: '2'}
   - {t: BT, h: '1'}
   - {t: BT, h: '0'}
@@ -138,6 +138,41 @@ layers:
   - ''
   - {type: held}
   - {type: held}
+  - ''
+  Mouse:
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: '$$mdi:cursor-default-click-outline$$', s: '4', type: text_with_symbol}
+  - '&msc SCRL_UP'
+  - {t: '$$mdi:cursor-default-click-outline$$', s: '5', type: text_with_symbol}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mkp MB1'
+  - '&msc SCRL_DOWN'
+  - '&mkp MB2'
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
 combos:
 - p: [0, 10]
@@ -164,3 +199,5 @@ combos:
   k: '&colon'
 - p: [8, 18]
   k: '&semicolon'
+- p: [4, 0]
+  k: {t: Mouse, h: '$$mdi:circle-small$$'}
