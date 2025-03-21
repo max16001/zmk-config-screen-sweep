@@ -172,7 +172,7 @@ layers:
   - '&mkp MB2'
   - ''
   - ''
-  - ''
+  - {t: '$$mdi:cursor-default-click-outline$$', s: '3', type: text_with_symbol}
   - ''
   - ''
 combos:
