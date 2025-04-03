@@ -13,28 +13,28 @@ layers:
   - P
   - A
   - {t: S, h: LEFT GUI}
-  - {t: D, h: ALT}
-  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: D, h: LALT}
+  - {t: F, h: LCTRL}
   - G
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: J, h: RCTRL}
   - {t: K, h: RALT}
   - {t: L, h: RIGHT GUI}
   - ;
   - {t: Z, h: Ctl+Z}
-  - {t: X, h: '$$mdi:content-cut$$'}
-  - {t: C, h: '$$mdi:content-copy$$'}
-  - {t: V, h: '$$mdi:content-paste$$'}
+  - {t: X, h: Ctl+X}
+  - {t: C, h: Ctl+C}
+  - {t: V, h: Ctl+V}
   - B
   - N
   - M
   - ','
   - .
   - /
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: SPACE, h: RSHFT}
   - {t: ENTER, h: Symbol}
   - {t: ESC, h: Num}
-  - $$mdi:backspace-outline$$
+  - BSPC
   Symbol:
   - {t: F1, h: _}
   - F2
@@ -66,10 +66,10 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ESCAPE, h: BlTooth}
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: ▽, type: trans}
   Num:
   - KP DIVIDE
   - KP 7
@@ -78,15 +78,15 @@ layers:
   - KP MINUS
   - VOLUME UP
   - ''
-  - $$mdi:monitor-screenshot$$
-  - Page Up
+  - PSCRN
+  - PG UP
   - KP NUM
   - KP MULTIPLY
   - KP 4
   - KP 5
   - KP 6
   - KP PLUS
-  - $$mdi:volume-mute$$
+  - MUTE
   - LEFT ARROW
   - UP ARROW
   - RIGHT ARROW
@@ -106,17 +106,17 @@ layers:
   - {type: held}
   - ''
   BlTooth:
-  - $$mdi:backup-restore$$
-  - $$mdi:progress-download$$
+  - '&sys_reset'
+  - '&bootloader'
   - ''
   - ''
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$', type: toggle}
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$', type: toggle}
+  - OUT TOG
+  - OUT TOG
   - ''
   - ''
-  - $$mdi:progress-download$$
-  - $$mdi:backup-restore$$
-  - {t: '$$mdi:bluetooth$$', s: '$$mdi:close-thick$$', type: text_with_symbol}
+  - '&bootloader'
+  - '&sys_reset'
+  - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -125,7 +125,7 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '1'}
   - {t: BT, h: '0'}
-  - {t: '$$mdi:bluetooth$$', s: '$$mdi:close-thick$$', type: text_with_symbol}
+  - BT CLR
   - ''
   - ''
   - ''
@@ -140,52 +140,19 @@ layers:
   - {type: held}
   - {type: held}
   - ''
-  Mouse:
-  - ''
-  - ''
-  - '&mmv MOVE_UP'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
-  - ''
-  - ''
-  - {t: '$$mdi:cursor-default-click-outline$$', s: '4', type: text_with_symbol}
-  - '&msc SCRL_UP'
-  - {t: '$$mdi:cursor-default-click-outline$$', s: '5', type: text_with_symbol}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&mkp MB1'
-  - '&msc SCRL_DOWN'
-  - '&mkp MB2'
-  - ''
-  - ''
-  - {t: '$$mdi:cursor-default-click-outline$$', s: '3', type: text_with_symbol}
-  - ''
-  - ''
+  Mouse: ['', '', '&mmv MOVE_UP', '', '', '', '', '', '', '', '', '&mmv MOVE_LEFT', '&mmv MOVE_DOWN', '&mmv MOVE_RIGHT', '', '', '&mkp MB4', '&msc SCRL_UP', '&mkp
+      MB5', '', '', '', '', '', '', '', '&mkp MB1', '&msc SCRL_DOWN', '&mkp MB2', '', '', '&mkp MB3', '', '']
 combos:
 - p: [0, 10]
   k: ']'
 - p: [10, 20]
   k: '~'
 - p: [4, 14]
-  k: $$mdi:keyboard-tab$$
+  k: TAB
 - p: [14, 24]
   k: \
 - p: [5, 25]
-  k: $$mdi:backspace-reverse-outline$$
+  k: DEL
 - p: [15, 25]
   k: '-'
 - p: [9, 19]
@@ -201,4 +168,4 @@ combos:
 - p: [8, 18]
   k: '&semicolon'
 - p: [4, 0]
-  k: {t: Mouse, h: '$$mdi:toggle-switch$$'}
+  k: {t: Mouse, h: toggle}
