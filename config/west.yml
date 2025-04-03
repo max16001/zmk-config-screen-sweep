@@ -8,8 +8,6 @@ manifest:
       url-base: https://github.com/dhruvinsh
     - name: englmaxi
       url-base: https://github.com/englmaxi
-    - name: te9no
-      url-base: https://github.com/te9no
   
   projects:
     - name: zmk
@@ -25,7 +23,7 @@ manifest:
       remote: dhruvinsh
       revision: main
     - name: zmk-dongle-display
-      remote: te9no
+      remote: englmaxi
       revision: main
   self:
     path: config
