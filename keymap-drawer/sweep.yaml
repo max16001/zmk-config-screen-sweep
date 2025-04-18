@@ -173,3 +173,5 @@ combos:
   k: Ctl+0
 - p: [16, 7]
   k: Ctl+1
+- p: [5, 7]
+  k: '&cmd'
