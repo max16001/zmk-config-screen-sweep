@@ -169,3 +169,7 @@ combos:
   k: '&semicolon'
 - p: [4, 0]
   k: {t: Mouse, h: toggle}
+- p: [13, 2]
+  k: {t: KP 0, h: LCTRL}
+- p: [16, 7]
+  k: {t: KP 1, h: LCTRL}
