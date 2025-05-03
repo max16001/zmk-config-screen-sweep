@@ -15,12 +15,12 @@
 
         Skoba_L {
             bindings = <&kp RBKT>;
-            key-positions = <0 10>;
+            key-positions = <10 11>;
         };
 
         Tilda {
             bindings = <&kp TILDE>;
-            key-positions = <10 20>;
+            key-positions = <20 21>;
         };
 
         Tabul {
@@ -45,12 +45,12 @@
 
         Scoba_R {
             bindings = <&kp LBKT>;
-            key-positions = <9 19>;
+            key-positions = <19 18>;
         };
 
         Apostrophe {
             bindings = <&kp APOS>;
-            key-positions = <19 29>;
+            key-positions = <29 28>;
         };
 
         comma {

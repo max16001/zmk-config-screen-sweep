@@ -143,9 +143,9 @@ layers:
   Mouse: ['', '', '&mmv MOVE_UP', '', '', '', '', '', '', '', '', '&mmv MOVE_LEFT', '&mmv MOVE_DOWN', '&mmv MOVE_RIGHT', '', '', '&mkp MB4', '&msc SCRL_UP', '&mkp
       MB5', '', '', '', '', '', '', '', '&mkp MB1', '&msc SCRL_DOWN', '&mkp MB2', '', '', '&mkp MB3', '', '']
 combos:
-- p: [0, 10]
+- p: [10, 11]
   k: ']'
-- p: [10, 20]
+- p: [20, 21]
   k: '~'
 - p: [4, 14]
   k: TAB
@@ -155,9 +155,9 @@ combos:
   k: DEL
 - p: [15, 25]
   k: '-'
-- p: [9, 19]
+- p: [19, 18]
   k: '['
-- p: [19, 29]
+- p: [29, 28]
   k: ''''
 - p: [5, 15]
   k: '&comma'
