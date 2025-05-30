@@ -33,7 +33,7 @@ layers:
   - /
   - {t: SPACE, h: RSHFT}
   - {t: ENTER, h: Symbol}
-  - {t: ESC, h: Num}
+  - {t: DEL, h: Num}
   - BSPC
   Symbol:
   - {t: F1, h: _}
@@ -68,7 +68,7 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ESCAPE, h: BlTooth}
+  - {t: DEL, h: BlTooth}
   - {t: ▽, type: trans}
   Num:
   - KP DIVIDE
@@ -140,8 +140,8 @@ layers:
   - {type: held}
   - {type: held}
   - ''
-  Mouse: ['', '', '&mmv MOVE_UP', '', '', '', '', '', '', '', '', '&mmv MOVE_LEFT', '&mmv MOVE_DOWN', '&mmv MOVE_RIGHT', '', '', '&mkp MB4', '&msc SCRL_UP', '&mkp
-      MB5', '', '', '', '', '', '', '', '&mkp MB1', '&msc SCRL_DOWN', '&mkp MB2', '', '', '&mkp MB3', '', '']
+  Mouse: ['', '', '&mmv MOVE_UP', '', '', '', '', '&msc SCRL_UP', '', '', '', '&mmv MOVE_LEFT', '&mmv MOVE_DOWN', '&mmv MOVE_RIGHT', '', '', '&mkp MB1', '&msc SCRL_DOWN',
+    '&mkp MB2', '', '', '', '', '', '', '', '&mkp MB4', '', '&mkp MB5', '', '', '&mkp MB3', '', '']
 combos:
 - p: [10, 11]
   k: ']'
@@ -152,7 +152,7 @@ combos:
 - p: [14, 24]
   k: \
 - p: [5, 25]
-  k: DEL
+  k: ESC
 - p: [15, 25]
   k: '-'
 - p: [19, 18]
